@@ -1,0 +1,75 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #34495e;
+    line-height: 1.6;
+}
+
+/* Header styling */
+.site-header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #2980b9;
+}
+
+.subtitle {
+    font-size: small;
+    margin-top: 5px;
+}
+
+/* Navigation */
+.main-nav {
+    background: #2c3e50;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content area */
+.content {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* Card layout demonstrating Box Model */
+.card {
+    background: white;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Styled button */
+.styled-btn {
+    background: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.styled-btn:hover {
+    background: #2ecc71;
+}
+
+/* Footer styling */
+.site-footer {
+    background: #34495e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
